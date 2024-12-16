@@ -1,0 +1,93 @@
+/* Navbar styles */
+
+.navbar {
+  background-color: #4891f7; /* Dark grey background color */
+  padding: 1rem 2rem; /* Add padding for spacing */
+  border-radius: 1px; /* Rounded corners */
+  display: flex; /* Set display to flex */
+  justify-content: center; /* Center-align content */
+  align-items: center; /* Center-align items vertically */
+
+  @media (max-width: 768px) {
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+}
+
+.navbar-brand {
+  color: #fff; /* White color for brand text */
+  font-size: 1.5rem; /* Increase font size */
+  font-weight: bold; /* Bold font weight */
+  text-transform: uppercase; /* Uppercase text */
+  margin-right: auto; /* Auto margin to push the brand to the left */
+  margin: 0 auto; /* Center-align content horizontally with auto margins */
+  padding: 0 1rem; /* Add padding for spacing */
+
+  @media (max-width: 768px) {
+    font-size: 1.2rem; /* Reduce font size for smaller screens */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem; /* Further reduce font size for smaller screens */
+  }
+}
+
+.nav-link,
+.btn {
+  color: #fff; /* White color for links and buttons */
+  font-size: 1.2rem; /* Increase font size */
+  margin: 0 1rem; /* Add margin for spacing */
+  text-transform: uppercase; /* Uppercase text */
+  transition: all 0.3s ease; /* Smooth transition */
+  padding: 0 1rem; /* Add padding for spacing */
+  height: 200%;
+
+  @media (max-width: 768px) {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+    margin: 0.5rem 0; /* Adjust margin for smaller screens */
+    padding: 0.5rem 1rem; /* Adjust padding for smaller screens */
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem; /* Further reduce font size for smaller screens */
+    padding: 0.5rem 0.8rem; /* Further adjust padding for smaller screens */
+  }
+}
+
+/* Button styles */
+.btn {
+  font-size: 1.1rem; /* Increase font size */
+  border-radius: 9px; /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+
+  @media (max-width: 768px) {
+    font-size: 1rem; /* Reduce font size for smaller screens */
+  }
+}
+
+.btn-primary {
+  background-color: #4a90e2; /* Blue primary button color */
+  border-color: #4a90e2; /* Blue border color */
+}
+
+.btn-secondary {
+  background-color: #4a90e2; /* Blue primary button color */
+  border-color: #4a90e2; /* Blue border color */
+}
+
+.btn-success {
+  background-color: #4a90e2; /* Blue primary button color */
+  border-color: #4a90e2; /* Blue border color */
+}
+
+.btn,
+.nav-link {
+  margin-bottom: 20px; /* Add space between buttons */
+
+  @media (max-width: 768px) {
+    margin-bottom: 10px; /* Reduce space between buttons for smaller screens */
+  }
+}
+
+.btn:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
